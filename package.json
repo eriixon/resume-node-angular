@@ -1,0 +1,19 @@
+{
+  "name": "new-resume-node-angular",
+  "version": "1.0.0",
+  "description": "My new resume based on NodeJS, AngularJS and Boostrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyradkov/resume-node-angular.git"
+  },
+  "author": "Sergey Radkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeyradkov/resume-node-angular/issues"
+  },
+  "homepage": "https://github.com/sergeyradkov/resume-node-angular#readme"
+}
