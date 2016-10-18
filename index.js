@@ -1,8 +1,8 @@
 "use strict";
-let express = require('expess')
-let app = express;
+const express = require('express');
+const app = express();
 
-app.set('port',process.env.port||8000);
+app.set('port', process.env.PORT||8000);
 app.use(express.static('public'));
 
-app.listen(post, ()=>console.log(`Resume starts on port ${port}`));
+app.listen(app.get('port'), () => console.log(`Resume starts on port ${app.get('port')}`));
