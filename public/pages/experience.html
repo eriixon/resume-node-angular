@@ -1,0 +1,60 @@
+<div class="container-fluid" id="experience">
+    <div class="row">
+
+    <div class="col-xs-12 text-center">
+        <button class="btn btn-info">
+          <a class="resume-btn" href="../../asset/doc/Sergey_Radkov_Resume.pdf" download="Sergey_Radkov_resume.pdf">
+          <h2 class="head-two">DOWNLOAD FULL RESUME</h2></a>
+        </button>    
+    </div>
+    <div class="col-xs-12 text-center">
+         <h2 class="head-one"> Education </h2>
+    </div>
+        
+    <div class="col-md-10 col-sm-10 col-xs-12" ng-repeat="place in $ctrl.education track by $index">
+
+       <div class="col-md-12 col-sm-12 col-xs-12 place">
+           <div class="col-md-3 col-sm-3 col-xs-12 text-center" style="float: leright">
+                <a ng-href="{{place.fullURL}}" target="_blank">
+                <img class="edu-img center-block" ng-src="asset/img/work/{{place.img}}" alt={{place.place}} target="_blank" title={{place.place}}>
+                </a>
+           </div>
+           <div class="col-md-9 col-sm-9s col-xs-12">
+               <h2>{{place.course}}</h2>
+               <h3 style="margin-top:0px">{{place.subCourse}}</h3>
+               <h4> 
+                   <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><span> {{place.period}} |</span>
+                   <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {{place.address}}|
+                   <span class="glyphicon glyphicon-link" aria-hidden="true"></span> <a target="_blank" ng-href="{{place.fullURL}}"> {{place.shortURL}}</a>
+               </h4>
+               <p align="justify">{{place.description}}</p>
+           </div>
+      </div>
+     </div>
+
+     <div class="col-xs-12 text-center">
+          <h2 class="head-one"> Work experience</h2>
+     </div>
+
+     <div class="col-md-10 col-sm-10 col-xs-12" ng-repeat="place in $ctrl.works track by $index">
+
+       <div class="col-md-12 col-sm-12 col-xs-12 place">
+           <div class="col-md-3 col-sm-3 col-xs-12 text-center" style="float: leright">
+                <a ng-href="{{place.fullURL}}" target="_blank">
+                <img class="work-img center-block" ng-src="asset/img/work/{{place.img}}" alt={{place.place}} target="_blank" title={{place.place}}>
+                </a>
+           </div>
+           <div class="col-md-9 col-sm-9s col-xs-12">
+               <h2>{{place.position}}</h2>
+               <h4> 
+                   <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><span> {{place.period}} |</span>
+                   <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {{place.address}}|
+                   <span class="glyphicon glyphicon-link" aria-hidden="true"></span> <a target="_blank" ng-href="{{place.fullURL}}"> {{place.shortURL}}</a>
+               </h4>
+               <p align="justify">{{place.description}}</p>
+           </div>
+      </div>
+     </div>  
+   
+</div>
+</div>

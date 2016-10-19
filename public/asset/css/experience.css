@@ -1,0 +1,30 @@
+#experience{
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: block;
+  background-color: #ddddcc;
+  font-family: "Marvel", sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+#experience .resume-btn {
+  color: black;
+  font-size: 16px;
+}
+#experience .resume-btn:hover {
+  color: antiquewhite;
+  text-decoration: none;
+}
+#experience .work-img {
+  padding: 60px 0 10px 0;
+  width: 80px;
+}
+#experience .edu-img {
+  padding: 70px 0 10px 0;
+  width: 100px;
+}
+#experience img:hover {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}

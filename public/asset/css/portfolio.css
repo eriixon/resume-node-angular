@@ -1,0 +1,60 @@
+#portfolio{
+  padding-bottom: 60px;
+  display: block;
+  background-color: #edeeef;
+  font-family: "Marvel", sans-serif;
+  font-size: 20px;
+  height: fit-content;
+}
+
+.project{
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+    position: relative;
+    width: 270px;
+    height: 150px;
+}
+.project img {
+  width: 270px;
+  height: 150px;
+  border: 1px solid black;
+}
+.pjlx{
+    position:absolute;
+    width: 270px;
+    height: 150px;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(0,0,0, 0.7);
+    display:none;
+    color: antiquewhite;
+}
+.pjlink {
+    width: 100px;
+    height: 50px;
+    border: 1px solid antiquewhite;
+    background: transparent;
+    color: antiquewhite;
+    display: inline-block;
+    letter-spacing: 2px;
+    line-height: 1em;
+    margin-top: 10px;
+    padding-top: 5%;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+.pjlink:hover {
+  color: black;
+  background-color: antiquewhite;
+}
+.project:hover .pjlx {
+  display: block;
+  position:absolute;
+  z-index:9999;
+}
+.pjdes{
+  padding-left: 10px;
+  padding-right: 10px;
+}

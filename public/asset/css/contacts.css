@@ -1,0 +1,50 @@
+#contacts{
+  opacity: 0.9;
+  background: url(../../asset/img/back-down.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: fit-content;
+  color: antiquewhite !important;
+  font-family: "Marvel", sans-serif;
+  font-size: 20px;
+}
+.con-icons {
+  width: 25px;
+  margin-right: 5px;
+ }
+ .soc-icons{
+  display: inline-block;
+  margin: 5px 10px 5px 10px;
+ }
+ .soc-icons:hover{
+   background-color: #edeeef;
+   border-radius: 50%;
+ }
+ 
+#contacts ul {
+list-style: none;
+display: block;
+padding: 0;
+margin-left: 25px;
+}
+#contacts ul{
+  list-style-type: none;
+}
+
+#contacts ul>li{
+  margin-top: 7px;
+  margin-left: 15%;
+}
+
+#contacts .form-group{
+  margin-bottom: 20px;
+}
+
+#contacts label{
+  font-weight: normal;
+}
+#contacts .btn.btn-primary {
+  width: 100%;
+}

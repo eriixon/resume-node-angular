@@ -1,0 +1,86 @@
+body {
+  font-family: "Marvel", sans-serif;
+  font-size: 20px;
+}
+
+.bg-full{
+  background: url(../../asset/img/back-top.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.navbar-default .navbar-collapse, .navbar-default{
+  background-color: transparent;
+  border: none;
+  margin-top: 5%;
+
+}
+
+.navbar ul> li{
+  list-style: none;
+  display: block;
+  height: 60px;
+}
+
+.navtop > li a{
+  text-decoration: none;
+  font-style: italic;
+  display: inline-block;
+  font-size: 28px;
+  color: #dd8844;
+  text-align: center;
+  margin: 0;
+}
+.navmob > li a{
+  text-decoration: none;
+  font-style: italic;
+  display: block;
+  font-size: 28px;
+  color: #dd8844;
+  text-align: center;
+  margin: 0;
+  background-color: black;
+  opacity: 0.8;
+}
+.navbar > li a:hover{
+color: black;
+}
+
+#hello {
+  margin-top: 25%;
+  color: #dd8844;
+  font-style: italic;
+}
+#hello h2{
+ text-align: right;
+ font-size: 2em;
+}
+#hello h1{
+ font-size: 4em;
+}
+
+.head-one{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+.head-two{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+

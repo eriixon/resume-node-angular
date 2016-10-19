@@ -1,0 +1,19 @@
+#about {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: block;
+  background-color: #ddddcc;
+  font-size: 20px;
+  font-family: "Marvel", sans-serif;
+}
+#my-img {
+ height: 200px;
+ border-radius: 50%;
+ border: 3px solid #555566;
+ display: block;
+}
+#about > .navbar-default .navbar-nav>li>a {
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+}

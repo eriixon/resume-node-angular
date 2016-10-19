@@ -1,0 +1,45 @@
+#abilities{
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: block;
+  color: #333;
+  background-color: #edeeef;
+  font-family: "Marvel", sans-serif;
+  font-size: 20px;
+  z-index: 100;
+}
+#abilities .lite {
+  color: #bb8866;
+}
+#abilities .stars:hover {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    color: blue;
+}
+#abilities ul {
+    list-style: none;
+}
+.ability-title {
+    display: inline-block;
+    width: 75%;
+}
+.ability-score {
+    float: right;
+    padding-right: 15px;
+}
+#abilities ul>li:hover{
+    background-color: lightgray;
+}
+#abilities img{
+    width: 80px;
+}
+#abilities .icon-list {
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+}
+#abilities img:hover {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
