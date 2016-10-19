@@ -23,6 +23,15 @@ angular.module('resume').service('WorkService', function(){
         description: "Five year program specialized in management, technology, communications and accounting for motor transport companies and business transport departments."
         }],
     works: [{
+        fullURL: 'http://sradkov.com',
+        shortURL: 'sradkov.com',
+	    place: "Freelance",
+		img: 'wdf.png',
+        position: 'Web Developer',
+        period: 'June 2016 - now',
+        address: 'Boise, Idaho, USA',
+        description: "Created and maintained web pages using HTML, CSS, Bootstrap, JavaScript, AngularJS and Node.js, optimized web pages for mobile, and debugged for better code, updated existing code and learned new technologies on the fly."
+        },{
         fullURL: 'http://www.volvotrucks.com/',
         shortURL: 'volvotrucks.com',
 	    place: "Volvo Trucks Russia",
