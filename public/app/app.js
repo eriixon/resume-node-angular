@@ -31,7 +31,22 @@ angular.module('resume').component('portfolio', {
 });
 angular.module('resume').component('contacts', {
         templateUrl: 'pages/contacts.html',
-        controller: function(ResumeService){
-          this.socialLinks = ResumeService.linkMap.socialLinks;
-        }
-});
+        controller: function(ResumeService, $http){
+
+        this.socialLinks = ResumeService.linkMap.socialLinks;
+
+        this.sendEmail = function (message) {
+                return $http.put('/sendEmail', message);
+        };
+
+                // $http.post('/sendEmail', message).then(successCallback, errorCallback);
+                // function successCallback(data) {
+                //         console.log(data)
+                // };
+
+                // function errorCallback(err) {
+                //         console.log(err)
+                // };
+        // };
+}});
+

@@ -38,3 +38,6 @@ jspm_packages
 
 # Visual Stuido Code launch
 .vscode
+
+#config files
+config
