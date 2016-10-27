@@ -20,7 +20,7 @@ app.put('/sendEmail', function(req,res){
     let transporter = nodemailer.createTransport(opts);
     let message = {
         from: EMAIL,
-        to: EMAIL,
+        to: "radkovsn@gmail.com",
         subject: 'Email from Resume',
         html: `<h2>Someone wants to connect</h2><p>Name: ${req.body.name}</p><p>Email: '${req.body.email}</p><p>Text: ${req.body.text}</p>`
     };
