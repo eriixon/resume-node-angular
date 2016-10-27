@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-// const config = require('config');
+const config = require('config');
 const nodemailer = require('nodemailer');
 
 app.set('port', process.env.PORT||8080);
@@ -10,10 +10,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-// let EMAIL = process.env.EMAIL || config.get("EMAIL");
-// let PASS = process.env.PASS || config.get("PASS");
-let EMAIL = process.env.EMAIL;
-let PASS = process.env.PASS;
+let EMAIL = process.env.EMAIL || config.get("EMAIL");
+let PASS = process.env.PASS || config.get("PASS");
+// let EMAIL = process.env.EMAIL;
+// let PASS = process.env.PASS;
 
 app.put('/sendEmail', function(req,res){
     let opts = {service:'Gmail', auth: {user: EMAIL, pass: PASS}};

@@ -36,17 +36,14 @@ angular.module('resume').component('contacts', {
         this.socialLinks = ResumeService.linkMap.socialLinks;
 
         this.sendEmail = function (message) {
-                return $http.put('/sendEmail', message);
+                $http.put('/sendEmail', message).then(successCallback, errorCallback);
+                        function successCallback(data) {
+                                console.log(data);
+                                message = {} 
+                        };
+                        function errorCallback(err) {
+                                console.log(err)
+                        };
         };
-
-                // $http.post('/sendEmail', message).then(successCallback, errorCallback);
-                // function successCallback(data) {
-                //         console.log(data)
-                // };
-
-                // function errorCallback(err) {
-                //         console.log(err)
-                // };
-        // };
 }});
 
