@@ -31,19 +31,21 @@ angular.module('resume').component('portfolio', {
 });
 angular.module('resume').component('contacts', {
         templateUrl: 'pages/contacts.html',
-        controller: function(ResumeService, $http){
-
+        controller: function(ResumeService, $http, $scope){
+        
         this.socialLinks = ResumeService.linkMap.socialLinks;
+        $scope.sendEmail = function (message) {
+                if(!message.got) {
+                        $http.put('/sendEmail', message).then(successCallback, errorCallback);
+                } else console.log("*** It's a bot. I don't need this messsage ***");
 
-        this.sendEmail = function (message) {
-                $http.put('/sendEmail', message).then(successCallback, errorCallback);
-                        function successCallback(data) {
-                                console.log(data);
-                                message = {} 
-                        };
-                        function errorCallback(err) {
-                                console.log(err)
-                        };
+                function successCallback(data) {
+                        console.log(data);
+                        $scope.message = {};
+                };
+                function errorCallback(err) {
+                         console.log(err)
+                };
         };
 }});
 
