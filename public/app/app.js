@@ -42,10 +42,15 @@ angular.module('resume').component('contacts', {
                 function successCallback(data) {
                         console.log(data);
                         $scope.message = {};
+                        showMessage();
                 };
                 function errorCallback(err) {
                          console.log(err)
                 };
+                        // POP-UP MESSAGING
+                function showMessage() {
+                        $('#showMessage').modal('show');
+                }
         };
 }});
 
