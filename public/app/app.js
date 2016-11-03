@@ -33,7 +33,7 @@ angular.module('resume').component('contacts', {
         templateUrl: 'pages/contacts.html',
         controller: function(ResumeService, $http, $scope){
         
-        this.socialLinks = ResumeService.linkMap.socialLinks;
+        $scope.socialLinks = ResumeService.linkMap.socialLinks;
         $scope.sendEmail = function (message) {
                 if(!message.got) {
                         $http.put('/sendEmail', message).then(successCallback, errorCallback);

@@ -5,7 +5,8 @@ angular.module('resume').service('ResumeService', function () {
             {url: 'https://www.facebook.com/radkovsn', title: "Facebook", img: 'facebook_icon.png'},
             {url: 'https://www.linkedin.com/in/radkovsn', title: "LikedIn", img: 'linkedin_icon.png'},
             {url: 'https://github.com/eriixon', title: "GitHub", img: 'github_icon.png'},
-            {url: 'https://www.instagram.com/eriixon/', title: "Instagram", img: 'instagram_info.png'}
+            {url: 'https://www.instagram.com/eriixon/', title: "Instagram", img: 'instagram_info.png'},
+            {url: 'https://twitter.com/eriixonn', title: "Twitter", img: 'twitter_icon.png'}
         ],
         tools: [
             {url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',title: 'HTML',img: 'html.png'},
