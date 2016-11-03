@@ -6,18 +6,25 @@ angular.module('resume').service('WorkService', function(){
         shortURL: 'boisecodeworks.com',
 	    place: "BoiseCodeWorks",
 		img: 'bcw.png',
-        course: 'Web Development Immersive Course',
-        subCourse: '',
+        course: 'Web Development Immersive Full Stack Course',
         period: 'April - June 2016',
         address: 'Boise, ID, USA',
         description: "The Immersive Course is a full-time experience designed for students looking to start a career in programming. As an Immersive student I learned both front-end and back-end technologies, worked in groups under the supervision of experienced mentors to create fully functional real-world applications."
        },{
+        fullURL: 'https://geekbrains.ru/',
+        shortURL: 'geekbrains.ru',
+	    place: "GeekBrains.ru",
+		img: 'gb.png',
+        course: 'Java. Level 1, 2 & 3',
+        period: 'July - November 2015',
+        address: 'Moscow, Russia',
+        description: "The full course of Java from the leading online IT school in Russia introduces computer programming using the Java with OOP principles. Emphasis is placed on event-driven programming methods, including creating and manipulating objects, classes, and using object-oriented tools."  
+        },{
         fullURL: 'https://guu.ru/?page_id=19813&lang=en',
         shortURL: 'guu.ru',
 	    place: "State University of Management",
 		img: 'sum.png',
-        course: 'Master’s Degree',
-        subCourse: 'Transport Management (combined bachelor/master program)',
+        course: 'Transport Management, Master’s Degree',
         period: 'September 1997 - June 2002',
         address: 'Moscow, Russia',
         description: "Five year program specialized in management, technology, communications and accounting for motor transport companies and business transport departments."
