@@ -49,13 +49,13 @@ angular.module('resume').service('ResumeService', function () {
             {item: "English", stars: 4}
             ],
       projects: [
-           {url: 'https://www.facebook.com/BBBSnakeRiverRegion', title:'Messenger Bot', img:'fb-messenger.png', github: 'https://github.com/sergeyradkov/bbb-facebook-messenger-bot', des: 'Facebook Messenger Bot for Better Business Bureau'},
-           {url: 'https://qbhdemo.herokuapp.com/', title:'QB Form Helper', img:'qbhelper.png', github: 'https://github.com/sergeyradkov/qbemailgrabber', des: 'Web application for QuickBooks helps to provide custome info online'},
-           {url: 'http://sergeyradkov.github.io/music-finder/', title:'iTunes Music Finder', img:'imf.png', github: 'https://github.com/sergeyradkov/music-finder', des: 'Find all your favorite music in iTunes Store'},
-           {url: 'http://sergeyradkov.github.io/calculators/', title:'Digital Converter', img:'digcon.png', github: 'https://github.com/sergeyradkov/calculators', des: 'Online digital converter from US to EU measurements'},
-           {url: 'http://sergeyradkov.github.io/The-Slap-Game/', title:'The Slap Game', img:'slap.png', github: 'https://github.com/sergeyradkov/The-Slap-Game', des: 'Online game: be brave and terminate a thug'},
-           {url: 'http://sergeyradkov.github.io/inspire/', title:'Inspire Page', img:'inspire.png', github: 'https://github.com/sergeyradkov/inspire', des: 'Begin or continue your day with a nice landing page'},
-           {url: 'http://sergeyradkov.github.io/find-penguins',title:'Find the penguins', img:'findup.png', github: 'https://github.com/sergeyradkov/find-penguins', des: 'Online game: find all pingues and don\'t meet a yeti'},
+           {url: 'https://www.facebook.com/BBBSnakeRiverRegion', title:'Messenger Bot', img:'fb-messenger.png', github: 'https://github.com/eriixon/bbb-facebook-messenger-bot', des: 'Facebook Messenger Bot for Better Business Bureau'},
+           {url: 'https://qbhdemo.herokuapp.com/', title:'QB Form Helper', img:'qbhelper.png', github: 'https://github.com/eriixon/qbemailgrabber', des: 'Web application for QuickBooks helps to provide custome info online'},
+           {url: 'http://eriixon.github.io/music-finder/', title:'iTunes Music Finder', img:'imf.png', github: 'https://github.com/eriixon/music-finder', des: 'Find all your favorite music in iTunes Store'},
+           {url: 'http://eriixon.github.io/calculators/', title:'Digital Converter', img:'digcon.png', github: 'https://github.com/eriixon/calculators', des: 'Online digital converter from US to EU measurements'},
+           {url: 'http://eriixon.github.io/The-Slap-Game/', title:'The Slap Game', img:'slap.png', github: 'https://github.com/eriixon/The-Slap-Game', des: 'Online game: be brave and terminate a thug'},
+           {url: 'http://eriixon.github.io/inspire/', title:'Inspire Page', img:'inspire.png', github: 'https://github.com/eriixon/inspire', des: 'Begin or continue your day with a nice landing page'},
+           {url: 'http://eriixon.github.io/find-penguins',title:'Find the penguins', img:'findup.png', github: 'https://github.com/eriixon/find-penguins', des: 'Online game: find all pingues and don\'t meet a yeti'},
                 ]
     };
 });
