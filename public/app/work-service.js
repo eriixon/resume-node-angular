@@ -65,14 +65,5 @@ angular.module('resume').service('WorkService', function(){
         period: 'February 2008 - June 2010',
         address: 'Moscow, Russia',
         description: "Managed company carpool of cars, managed drivers, and oversaw staff/customer transportation services. Oversaw contract compliance with leasing, insurance, transportation and other corporate partners."   
-        },{
-        fullURL: "http://www.danone.com/",
-        shortURL: "danone.com",
-	    place: "Danone / Unimilk",
-		img: 'danone.png',
-        position: "Transportation Manager",
-        period: "October 2006 - August 20070",
-        address: 'Moscow, Russia',
-        description: "Managed corporate carpool of cars, supervised drivers, and oversaw transportation services for staff and visitors. Developed transportation plans, policies and budgets"             
         }]};
 });
