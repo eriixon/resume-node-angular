@@ -30,6 +30,15 @@ angular.module('resume').service('WorkService', function(){
         description: "Five year program specialized in management, technology, communications and accounting for motor transport companies and business transport departments."
         }],
     works: [{
+        fullURL: 'https://saharacase.com',
+        shortURL: 'saharacase.com',
+	    place: "Saharacase",
+		img: 'sahara.png',
+        position: 'Web Developer',
+        period: 'November 2016 - now',
+        address: 'Boise, Idaho, USA',
+        description: "Co-developed a vibrant, secure website using interactive features and SEO best practices to optimize traffic, page views and the user experience (UX)."
+        },{
         fullURL: 'http://sradkov.com',
         shortURL: 'sradkov.com',
 	    place: "Freelance",
