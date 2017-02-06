@@ -7,6 +7,11 @@
   font-size: 20px;
   color: #333;
 }
+#experience .btn.btn-info {
+    box-shadow: 5px 5px 10px #666666;
+    vertical-align: top;
+    padding-bottom: 10px;
+}
 #experience .resume-btn {
   color: black;
   font-size: 16px;
