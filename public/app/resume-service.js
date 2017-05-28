@@ -1,5 +1,4 @@
 angular.module('resume').service('ResumeService', function () {
-
     this.linkMap = {
         socialLinks: [
             {url: 'https://www.facebook.com/radkovsn', title: "Facebook", img: 'facebook_icon.png'},
@@ -12,15 +11,17 @@ angular.module('resume').service('ResumeService', function () {
             {url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',title: 'HTML',img: 'html.png'},
             {url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',title: 'CSS',img: 'css.png'},
             {url: 'http://getbootstrap.com/',title: 'Bootstrap',img: 'bootstrap.png'},
+            {url: 'https://developer.mozilla.org/en/docs/Web/JavaScript',title: 'JavaScript',img: 'javascript.png' ,type: 'tool'},
             {url: 'http://jquery.com/',title: 'jQuery',img: 'jquery.png'},
             {url: 'https://angularjs.org/',title: 'AngularJS',img: 'angular.png'},
-            {url: 'https://developer.mozilla.org/en/docs/Web/JavaScript',title: 'JavaScript',img: 'javascript.png' ,type: 'tool'},
+            {url: 'https://vuejs.org/',title: 'VueJS',img: 'vuejs.png'},
             {url: "https://nodejs.org/",title: "Node.JS",img: 'nodejs.png'},
             {url: "https://www.npmjs.com/",title: "NPM",img: 'npm.png'},
             {url: "https://developers.facebook.com/products/messenger/",title: "Messenger Platform",img: 'messenger.png'},
             {url: 'https://github.com/',title: 'GitHub',img: 'github.png',type: 'tool'},
             {url: "https://heroku.com/",title: "Heroku",img: 'heroku.png'},
             {url: "https://bower.io/",title: "Bower",img: 'bower.png'},
+            {url: 'https://code.visualstudio.com/',title: 'Visual Studio Code',img: 'vsc.png',type: 'tool'},
             {url: 'https://www.visualstudio.com/',title: 'Visual Studio',img: 'vs.png',type: 'tool'},
             {url: 'https://www.jetbrains.com/idea/',title: 'Intellij IDEA',img: 'idea.png',type: 'tool'}
             ],
@@ -28,7 +29,6 @@ angular.module('resume').service('ResumeService', function () {
             {url: 'https://msdn.microsoft.com/en-us/library/kx37x362.aspx',title: 'C#',img: 'csharp.png',type: 'tool'},
             {url: 'https://www.microsoft.com/net/default.aspx',title: 'Microsoft.NET',img: 'dotnet.png',type: 'tool'},
             {url: "https://www.java.com/",title: "Java",img: 'java.png'},
-            {url: "http://developer.android.com/index.html",title: "Android Studio",img: 'as.png'},
             {url: 'https://www.firebase.com/',title: 'Firebase',img: 'firebase.jpg',type: 'tool'},
             {url: "http://www.js-data.io/",title: "JSData",img: 'js-data.png'},
             {url: "https://www.mysql.com/",title: "MySQL",img: 'mysql.png'},
