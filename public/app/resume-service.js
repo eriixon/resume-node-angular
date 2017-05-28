@@ -14,7 +14,7 @@ angular.module('resume').service('ResumeService', function () {
             {url: 'https://developer.mozilla.org/en/docs/Web/JavaScript',title: 'JavaScript',img: 'javascript.png' ,type: 'tool'},
             {url: 'http://jquery.com/',title: 'jQuery',img: 'jquery.png'},
             {url: 'https://angularjs.org/',title: 'AngularJS',img: 'angular.png'},
-            {url: 'https://vuejs.org/',title: 'VueJS',img: 'vuejs.png'},
+            {url: 'https://vuejs.org/',title: 'VueJS',img: 'vuejs.jpg'},
             {url: "https://nodejs.org/",title: "Node.JS",img: 'nodejs.png'},
             {url: "https://www.npmjs.com/",title: "NPM",img: 'npm.png'},
             {url: "https://developers.facebook.com/products/messenger/",title: "Messenger Platform",img: 'messenger.png'},
