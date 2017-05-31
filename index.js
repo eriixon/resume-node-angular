@@ -12,8 +12,6 @@ app.use(express.static('public'));
 
 let EMAIL = process.env.EMAIL || config.get("EMAIL");
 let PASS = process.env.PASS || config.get("PASS");
-// let EMAIL = process.env.EMAIL;
-// let PASS = process.env.PASS;
 
 app.put('/sendEmail', function(req,res){
     let opts = {service:'Gmail', auth: {user: EMAIL, pass: PASS}};

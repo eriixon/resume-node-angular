@@ -19,34 +19,28 @@ angular.module('resume').component('experience', {
         controller: function(WorkService){
            this.education = WorkService.placesMap.education;
            this.works = WorkService.placesMap.works;
-        }
-        
+        }        
 });
 angular.module('resume').component('portfolio', {
         templateUrl: 'pages/portfolio.html',
         controller: function(ResumeService){
           this.projects = ResumeService.linkMap.projects;
-        }
-        
+        }        
 });
 angular.module('resume').component('contacts', {
         templateUrl: 'pages/contacts.html',
         controller: function(ResumeService, $http, $scope){
-        
-        $scope.socialLinks = ResumeService.linkMap.socialLinks;
-        $scope.sendEmail = function (message) {
-                if(!message.got) {
-                        $http.put('/sendEmail', message).then(successCallback, errorCallback);
-                } else console.log("*** It's a bot. I don't need this messsage ***");
-
+            $scope.socialLinks = ResumeService.linkMap.socialLinks;
+            $scope.sendEmail = function (message) {
+                if(!message.got) $http.put('/sendEmail', message).then(successCallback, errorCallback);
+                else console.log("*** It's a bot. I don't need this messsage ***");
                 function successCallback(data) {
-                        console.log(data);
-                        $scope.message = {};
-                        (function(){$('#showMessage').modal('show');})();
-                };
+                    $scope.message = {};
+                    (function(){$('#showMessage').modal('show');})();
+                }
                 function errorCallback(err) {
-                         console.log(err)
-                };
+                    console.log(err);
+                }
         };
 }});
 

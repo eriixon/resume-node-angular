@@ -1,19 +1,13 @@
 <div class="container-fluid">
       <div class="row" id="contacts">
-          
             <div class="col-xs-12 col-sm-12 col-md-12 text-center" style="margin-top: 5%">
                 <h1 class="head-one">contacts</h1>                          
             </div>
-            
          <div class="col-md-4 col-md-offset-1 col-sm-9 col-sm-offset-1 col-xs-12" style="float: left"> 
              <div class="col-xs-12 col-sm-12 col-md-12 text-center" >
-                <p style="">
-                Please feel free to reach out to me if you have any questions, comments of offers.
-                </p>
+                <p>Please feel free to reach out to me if you have any questions, comments of offers.</p>
                 <h2 class="head-two" style="margin-top: 20px; margin-bottom: 20px">CONTACT INFORMATION</h2>
              </div>
-                
-            
              <div class="col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 40px">
                 <ul>
                     <li><img class="con-icons" src="asset/img/contact/location.png" alt="location"> Boise ID USA</li>
@@ -21,7 +15,6 @@
                     <li><img class="con-icons" src="asset/img/contact/phone.png" alt="location"> (208) 283-9080</li>
                 </ul>
              </div>
-             
              <div class="col-md-12 col-sm-12 col-xs-12 text-center" style="margin-bottom: 50px;">
                 <div class="soc-icons center-block" ng-repeat="soclink in socialLinks">
                      <a href={{soclink.url}} target="_blank">
@@ -36,20 +29,16 @@
                     <div class="form-group">
                        <label for="name">Full Name</label>
                         <input type="text" class="form-control" placeholder="Name" ng-model="message.name" required>
-                    </div>
-                      
+                    </div>                      
                     <div class="form-group">
                        <label for="email">Email Address</label>
                        <input type="email" class="form-control" placeholder="Email Address" ng-model="message.email" required>
-                    </div>
-       
+                    </div>       
                     <div class="form-group">
                         <label for="message">Your message</label>
                         <textarea class="form-control" rows="4" placeholder="Your message" ng-model="message.text" required></textarea>
-                    </div>
-                    
-                    <input type="text" ng-model="message.got" style="display:none" />
-
+                    </div>                    
+                    <input type="text" ng-model="message.got" style="display:none"/>
                     <div class="form-group">
                         <button type="submit" value="Send" class="btn btn-primary">SEND</button>
                     </div>
