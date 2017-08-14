@@ -1,7 +1,10 @@
 {
-  "name": "new-resume-node-angular",
-  "version": "1.0.0",
+  "name": "my-reseme-with-angular-node",
+  "version": "2.0.0",
   "description": "My new resume based on NodeJS, AngularJS and Boostrap",
+  "engines": {
+    "node": "8.1.4"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
