@@ -45,7 +45,7 @@ angular.module('resume').service('ResumeService', function () {
             {item: "Time management", stars: 4}
         ],
       projects: [
-           {url: 'https://findcity.herokuapp.com/', title: 'City Finder In North America', img: 'findcity.png', github: 'https://github.com/eriixon/FindCityInAmerica', des: 'Easy way to find a town/city in the USA, Canada and Mexico'},
+           {url: 'https://findcity.herokuapp.com/', title: 'City Finder In North America', img: 'fca.png', github: 'https://github.com/eriixon/FindCityInAmerica', des: 'Easy way to find a town/city in the USA, Canada and Mexico'},
            {url: 'https://www.facebook.com/BBBSnakeRiverRegion', title:'Messenger Bot', img:'fb-messenger.png', github: 'https://github.com/eriixon/bbb-facebook-messenger-bot', des: 'Facebook Messenger Bot for Better Business Bureau'},
            {url: 'https://qbhdemo.herokuapp.com/', title:'QB Form Helper', img:'qbhelper.png', github: 'https://github.com/eriixon/qbemailgrabber', des: 'Web application for QuickBooks helps to provide custome info online'},
            {url: 'http://eriixon.github.io/music-finder/', title:'iTunes Music Finder', img:'imf.png', github: 'https://github.com/eriixon/music-finder', des: 'Find all your favorite music in iTunes Store'},
