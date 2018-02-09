@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "My new resume based on NodeJS, AngularJS and Boostrap",
   "engines": {
-    "node": "8.1.4"
+    "node": "^8.1.4"
   },
   "main": "index.js",
   "scripts": {
