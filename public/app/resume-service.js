@@ -7,35 +7,46 @@ angular.module('resume').service('ResumeService', function () {
             {url: 'https://www.instagram.com/eriixon/', title: "Instagram", img: 'instagram_info.png'},
             {url: 'https://twitter.com/eriixonn', title: "Twitter", img: 'twitter_icon.png'}
         ],
-        tools: [
+        maintools: [
             {url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',title: 'HTML',img: 'html.png'},
             {url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',title: 'CSS',img: 'css.png'},
-            {url: 'http://getbootstrap.com/',title: 'Bootstrap',img: 'bootstrap.png'},
-            {url: 'https://developer.mozilla.org/en/docs/Web/JavaScript',title: 'JavaScript',img: 'javascript.png' ,type: 'tool'},
-            {url: 'http://jquery.com/',title: 'jQuery',img: 'jquery.png'},
-            {url: 'https://angularjs.org/',title: 'AngularJS',img: 'angular.png'},
-            {url: 'https://vuejs.org/',title: 'VueJS',img: 'vuejs.jpg'},
+            {url: 'https://developer.mozilla.org/en/docs/Web/JavaScript',title: 'JavaScript',img: 'javascript.png'},
             {url: "https://nodejs.org/",title: "Node.JS",img: 'nodejs.png'},
-            {url: "https://www.npmjs.com/",title: "NPM",img: 'npm.png'},
-            {url: "https://developers.facebook.com/products/messenger/",title: "Messenger Platform",img: 'messenger.png'},
+            {url: 'https://msdn.microsoft.com/en-us/library/kx37x362.aspx',title: 'C#',img: 'csharp.png'},
+            {url: 'https://www.asp.net/',title: 'ASP.NET',img: 'aspnet.png'},
+            {url: 'https://www.w3schools.com/sql/', title: 'SQL', img: 'sql.png' }
+        ],
+        fraimworks:[
+            {url: 'http://getbootstrap.com/',title: 'Bootstrap',img: 'bootstrap.png'},
+            {url: "https://semantic-ui.com/",title: "Semantic UI",img: 'semanticui.png'},
+            {url: 'https://vuejs.org/', title: 'VueJS',img: 'vuejs.png'},
+            {url: 'https://angular.io/', title: 'Angular',img: 'angular.png'},
+            {url: 'https://reactjs.org/',title: 'React',img: 'react.png'}            
+        ],
+        tools: [
             {url: 'https://github.com/',title: 'GitHub',img: 'github.png',type: 'tool'},
-            {url: "https://heroku.com/",title: "Heroku",img: 'heroku.png'},
-            {url: "https://bower.io/",title: "Bower",img: 'bower.png'},
             {url: 'https://code.visualstudio.com/',title: 'Visual Studio Code',img: 'vsc.png',type: 'tool'},
             {url: 'https://www.visualstudio.com/',title: 'Visual Studio',img: 'vs.png',type: 'tool'},
-            {url: 'https://www.jetbrains.com/idea/',title: 'Intellij IDEA',img: 'idea.png',type: 'tool'}
-            ],
-        exps: [
-            {url: 'https://msdn.microsoft.com/en-us/library/kx37x362.aspx',title: 'C#',img: 'csharp.png',type: 'tool'},
-            {url: 'https://www.microsoft.com/net/default.aspx',title: 'Microsoft.NET',img: 'dotnet.png',type: 'tool'},
-            {url: "https://www.java.com/",title: "Java",img: 'java.png'},
+            {url: "https://www.npmjs.com/",title: "NPM",img: 'npm.png', type: 'tool'},
             {url: 'https://www.firebase.com/',title: 'Firebase',img: 'firebase.jpg',type: 'tool'},
-            {url: "http://www.js-data.io/",title: "JSData",img: 'js-data.png'},
+            {url: "https://heroku.com/",title: "Heroku",img: 'heroku.png', type:'tool'},
+            {url: "https://webpack.js.org/", title: "Webpack", img: 'webpack.png', type: 'tool' },
+        ],
+        exps: [
+            {url: 'https://www.jetbrains.com/idea/',title: 'Intellij IDEA',img: 'idea.png'},
+            {url: 'https://www.jetbrains.com/webstorm/', title: 'Intellij Webstorm', img: 'webstorm.png' },
+            {url: "https://www.java.com/",title: "Java",img: 'java.png'},
+            {url: 'http://jquery.com/',title: 'jQuery',img: 'jquery.png'},            
+            {url: 'https://angularjs.org/',title: 'AngularJS',img: 'angularjs.png'},
             {url: "https://www.mysql.com/",title: "MySQL",img: 'mysql.png'},
-            {url: "http://foundation.zurb.com/",title: "Foundation",img: 'found.png'},
+            {url: "https://yarnpkg.com/", title: "Yarn", img: 'yarn.png' },
+            {url: "http://www.js-data.io/",title: "JSData",img: 'js-data.png'},
             {url: "http://expressjs.com/",title: "Express",img: 'express.png'},
-            {url: "https://www.twilio.com/",title: "Twilio",img: 'twilio.png'}
-            ],
+            {url: "https://www.twilio.com/",title: "Twilio",img: 'twilio.png'},
+            {url: "https://developers.facebook.com/products/messenger/",title: "Messenger Platform",img: 'messenger.png'},
+            {url: "https://bower.io/",title: "Bower",img: 'bower.png'},
+            {url: "http://foundation.zurb.com/",title: "Foundation",img: 'found.png'}
+        ],
        skills: [
             {item: "Problem solving", stars: 5},
             {item: "Communication & negotiation", stars: 5},

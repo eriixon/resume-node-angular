@@ -1,14 +1,38 @@
 <div class="container-fluid" id="abilities">
     <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 text-center" style='margin-bottom: 20px'>
-            <h2 class='head-one'>Technologies</h2>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+            <h1 class='head-one'>Technologies</h2>
+        </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+            <h2 class="head-one">Use everyday</h2>
         </div>
         <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-12 text-center">
-            <div class="icon-list" ng-repeat="tool in $ctrl.tools">
+            <div class="icon-list" ng-repeat="tool in $ctrl.maintools">
                 <a href={{tool.url}} target="_blank"><img title={{tool.title}} ng-src='asset/img/tool/{{tool.img}}' alt={{tool.title}}></a>
             </div>
         </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 text-center" style='margin-bottom: 20px'>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+            <h2 class="head-one">Fraimworks</h2>
+        </div>
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-12 text-center">
+            <div class="icon-list" ng-repeat="tool in $ctrl.fraimworks">
+                <a href={{tool.url}} target="_blank">
+                    <img title={{tool.title}} ng-src='asset/img/tool/{{tool.img}}' alt={{tool.title}}>
+                </a>
+            </div>
+        </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                <h2 class="head-one">Main tools</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-12 text-center">
+                <div class="icon-list" ng-repeat="tool in $ctrl.tools">
+                    <a href={{tool.url}} target="_blank">
+                        <img title={{tool.title}} ng-src='asset/img/tool/{{tool.img}}' alt={{tool.title}}>
+                    </a>
+                </div>
+            </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
             <h2 class="head-one"> Experience with</h2>
         </div>
         <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-12 text-center">

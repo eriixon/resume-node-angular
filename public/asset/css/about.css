@@ -7,9 +7,7 @@
   font-family: "Marvel", sans-serif;
 }
 #my-img {
- height: 200px;
- border-radius: 50%;
- border: 3px solid #555566;
+ height: 300px;
  display: block;
 }
 #about > .navbar-default .navbar-nav>li>a {
