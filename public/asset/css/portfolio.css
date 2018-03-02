@@ -9,52 +9,52 @@
 
 .project{
     display: inline-block;
-    margin: 5px 10px 5px 10px;
+    margin: 15px 0;
+    padding: 15px 0;
     position: relative;
-    width: 270px;
-    height: 150px;
+    border: 1px solid #ddc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 }
+
 .project img {
-  width: 270px;
-  height: 150px;
-  border: 1px solid black;
+  width: 100%;
+  height: auto;
+
 }
-.pjlx{
-    position:absolute;
-    width: 270px;
-    height: 150px;
-    left:0;
-    bottom:0;
-    right:0;
-    top:0;
-    background:rgba(0,0,0, 0.7);
-    display:none;
-    color: antiquewhite;
+
+.pbtn {
+  text-align: center;
+  width: 100px;
+  background-color: #EDEEEF;
+  transition: .3s;
 }
-.pjlink {
-    width: 100px;
-    height: 50px;
-    border: 1px solid antiquewhite;
-    background: transparent;
-    color: antiquewhite;
-    display: inline-block;
-    letter-spacing: 2px;
-    line-height: 1em;
-    margin-top: 10px;
-    padding-top: 5%;
-    text-decoration: none !important;
-    text-transform: uppercase;
+
+.pbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
-.pjlink:hover {
-  color: black;
-  background-color: antiquewhite;
+
+.pbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
-.project:hover .pjlx {
-  display: block;
-  position:absolute;
-  z-index:9999;
+
+.pbtn:hover {
+  border-color: blue;
 }
-.pjdes{
-  padding-left: 10px;
-  padding-right: 10px;
+
+.pbtn:hover span {
+  padding-right: 25px;
+}
+
+.pbtn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
