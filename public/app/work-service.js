@@ -44,7 +44,7 @@ angular.module('resume').service('WorkService', function () {
             place: "Neoreef",
             img: 'neoreef.png',
             position: 'Back End Web Developer',
-            period: 'September 2017 - now',
+            period: 'September 2017 - February 2018',
             address: 'Boise, Idaho, USA',
             description: "• Integration of user - facing elements developed by a front - end developers with server side logic • Building reusable code and libraries for future use for the unique proprietary content management system • Optimization of the application for maximum speed and scalability  • Implementation of security and data protection • Design and implementation of data storage solutions"
         }, {
