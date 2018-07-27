@@ -39,6 +39,16 @@ angular.module('resume').service('WorkService', function () {
             description: "Five year program specialized in management, technology, communications and accounting for motor transport companies and business transport departments."
         }],
         works: [{
+            fullURL: 'http://www.ruletekf.com/',
+            shortURL: 'ruletek.com',
+            place: "Ruletek",
+            img: 'ruletek.png',
+            position: 'System Architect',
+            period: 'Aprile 2018 - now',
+            address: 'Meridian, Idaho, USA',
+            description: "• Worked as part of a team to design, build, and support BPM applications for clients • Developed system features and functionality out of user requirements • Designed and develop user interfaces, followed design methodologies • Completied applications using languages and software products"
+        },
+            {
             fullURL: 'http://www.neoreef.com/',
             shortURL: 'neoreef.com',
             place: "Neoreef",
