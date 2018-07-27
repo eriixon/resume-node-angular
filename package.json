@@ -24,6 +24,7 @@
     "body-parser": "^1.15.2",
     "config": "^1.21.0",
     "express": "^4.14.0",
+    "natives": "^1.1.4",
     "nodemailer": "^2.6.4",
     "npm": "^3.10.8"
   },
@@ -35,5 +36,8 @@
     "gulp-jshint": "^2.0.4",
     "gulp-jsmin": "^0.1.5",
     "jshint": "^2.9.4"
+  },
+  "resolutions": {
+    "natives": "1.1.3"
   }
 }
