@@ -174,16 +174,27 @@ angular.module('resume').service('WorkService', function () {
             address: 'Moscow, Russia',
             description: "Five year program specialized in management, technology, communications and accounting for motor transport companies and business transport departments."
         }],
-        works: [{
-            fullURL: 'http://www.ruletekf.com/',
-            shortURL: 'ruletek.com',
-            place: "Ruletek",
-            img: 'ruletek.png',
-            position: 'System Architect',
-            period: 'Aprile 2018 - now',
-            address: 'Meridian, Idaho, USA',
-            description: "• Worked as part of a team to design, build, and support BPM applications for clients • Developed system features and functionality out of user requirements • Designed and develop user interfaces, followed design methodologies • Completied applications using languages and software products"
-        },
+        works: [
+            {
+                fullURL: 'https://allata.com/',
+                shortURL: 'allata.com',
+                place: "Allata",
+                img: 'allata.png',
+                position: 'Software Developer',
+                period: 'December 2019 - now',
+                address: 'Boise, Idaho, USA',
+                description: "• Developed complex corporate software systems with production quality deployment, monitoring and reliability • Worked closely with customers to efficiently resolve issues •	Modified existing software to correct errors, upgrade interfaces and improve performance"
+            },
+            {
+                fullURL: 'http://www.ruletekf.com/',
+                shortURL: 'ruletek.com',
+                place: "Ruletek",
+                img: 'ruletek.png',
+                position: 'System Architect',
+                period: 'Aprile 2018 - November 2018',
+                address: 'Meridian, Idaho, USA',
+                description: "• Worked as part of a team to design, build, and support BPM applications for clients • Developed system features and functionality out of user requirements • Designed and develop user interfaces, followed design methodologies • Completied applications using languages and software products"
+            },
             {
             fullURL: 'http://www.neoreef.com/',
             shortURL: 'neoreef.com',
@@ -193,7 +204,8 @@ angular.module('resume').service('WorkService', function () {
             period: 'September 2017 - February 2018',
             address: 'Boise, Idaho, USA',
             description: "• Integration of user - facing elements developed by a front - end developers with server side logic • Building reusable code and libraries for future use for the unique proprietary content management system • Optimization of the application for maximum speed and scalability  • Implementation of security and data protection • Design and implementation of data storage solutions"
-        }, {
+            },
+            {
             fullURL: 'https://saharacase.com',
             shortURL: 'saharacase.com',
             place: "Saharacase",
